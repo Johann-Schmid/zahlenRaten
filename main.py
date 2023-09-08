@@ -8,7 +8,7 @@ def guess_the_number():
     number = random.randint(1, 100)
     # Anzahl der Versuche auf 0 setzen
     attempts = 0
-#comm
+
     print("I've chosen a number between 1 and 100. Try to guess it!")
 
     # Schleife, die solange läuft, bis die Zahl erraten wurde, oder das Programm durch eine Exception beendet wird
